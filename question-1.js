@@ -1,0 +1,1 @@
+const getReminder = (a,b) => console.log(a%b); 
