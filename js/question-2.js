@@ -12,10 +12,8 @@ async function getresults() {
 
     const display = results.all;
 
-    for(let i =0; i < display.lenght; i++) {
-        console.log(display[i].name + display[i].rating + display[i].games_count);
-
-        gethtml.innerHTML += `<div class="html">${display[i].name + display[i].rating + display[i].games_count}</div>`;
+    for(let i =0; i < 8; i++) {
+        gethtml.innerHTML += `<li>Name: ${display[i].name} Rating: ${display[i].rating} Count: ${display[i].games_count}</li>`;
     }
 }
 

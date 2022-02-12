@@ -1,1 +1,3 @@
-const getReminder = (a,b) => console.log(a%b); 
+const getReminder = (a,b) => {
+    return a % b;
+}
